@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <div class="display-bate-papo">
+        <div class="poup-up"><img src="./bate-papo-icon.png" alt=""></div>
+        <div class="batepapo_conteiner">
+            <div class="bp_cabecalho">
+                <img src="./logo.png" alt="Logo Porto">
+                <div class="boxcontrole">
+                    <button id="minimizar_bate_papo"><i class="fas fa-minus"></i></button>
+                    <button id="fechar_bate_papo"><i class="fas fa-times"></i></button>
+                </div>
+            </div>
+            <div id="box_mensagens">
+                <div id="bp_bory"></div>
+            </div>
+            <div id="bp_sender">
+                <form  method="GET"   onsubmit="return false" class="bp_sender"> 
+                    <input  class="input_sender" id="input_sender" type="text" placeholder="Text" >
+                </form>
+            </div>
+        </div>
+    </div>  
+</body>
+</html>
